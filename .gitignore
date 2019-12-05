@@ -1,0 +1,9 @@
+#Irrelevant files
+.DS_Store
+.ipynb_checkpoints/
+
+#No data in git
+data/
+
+#No env in git
+venv/
