@@ -1,9 +1,11 @@
 #Irrelevant files
 .DS_Store
 .ipynb_checkpoints/
+__pycache__
 
 #No data in git
 data/
+cleaned_sets
 
 #No env in git
 venv/
