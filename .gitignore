@@ -6,6 +6,7 @@ __pycache__
 #No data in git
 data/
 cleaned_sets
+submissions
 
 #No env in git
 venv/
