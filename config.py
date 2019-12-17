@@ -3,6 +3,7 @@ import os
 BASE_PATH = os.path.dirname(__file__)
 DATA_PATH = os.path.join(BASE_PATH,"data")
 CLEANSETS_PATH = os.path.join(BASE_PATH, "cleaned_sets")
+SUBMISSION_PATH = os.path.join(BASE_PATH, "submissions")
 
 FILENAMES = {
     #INPUT
