@@ -1,6 +1,8 @@
 import re
 from googletrans import Translator
 
+
+
 def translate_string_list(L, dest="en"):
     """
     Translates a list of strings to targeted language
@@ -54,3 +56,7 @@ def process_categories(category_names):
             replacement_dict.update({cat: "Others - Others"})
 
     return [replacement_dict.get(x, x) for x in category_names]
+
+def process_shops(shop_names):
+    replacement_dict={"exit":"Other", "Shop Online":"Other", "Digital":"Other"}
+    return [replacement_dict.get(x, x) for x in shop_names]
